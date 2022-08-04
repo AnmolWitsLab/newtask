@@ -45,7 +45,7 @@ const Cart = () => {
     });
   };
 
-  // we will use the useEffect to update the data
+  // use the useEffect to update the data
   useEffect(() => {
     dispatch({ type: "GET_TOTAL" });
     // console.log("Awesome");
