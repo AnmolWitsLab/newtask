@@ -41,9 +41,11 @@ export const reducer = (state, action) => {
         let { price, quantity } = curVal;
 
         let updatedTotalAmount = price * quantity;
+
         accum.totalAmount += updatedTotalAmount;
 
         accum.totalItem += quantity;
+
         return accum;
       },
       {
